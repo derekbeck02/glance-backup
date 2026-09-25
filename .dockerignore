@@ -1,0 +1,22 @@
+# Never send secrets or runtime data into the Docker build context
+ssh/
+.env
+.env.*
+!.env.example
+data/
+backups/
+*.tar.gz
+*.log
+
+# Local/dev files
+.git/
+.gitignore
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.bak
+*.bak-*
+.DS_Store

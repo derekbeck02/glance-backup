@@ -1,0 +1,31 @@
+# Secrets
+ssh/
+.env
+.env.*
+!.env.example
+
+# Runtime state
+data/*
+!data/.gitkeep
+
+# Backup output
+*.tar.gz
+backups/
+
+# Local backups created while editing
+*.bak
+*.bak-*
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
