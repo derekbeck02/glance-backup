@@ -193,6 +193,10 @@ Status messages use generic `rclone` wording, so the remote does not need to be 
 
 If you changed `WIDGET_PORT`, use that port instead. The iframe URL must be reachable from the browser viewing Glance.
 
+> **Note:** This is not a full server backup. It primarily backs up configuration and app data.
+>
+> Media files are **not copied**; only a directory inventory is saved. The same applies to things like Docker containers/images, enabled services, storage devices/mounts, Tailscale status, and other system information — these are recorded as text inventories/status files so the server can be more easily reconstructed later.
+
 ## Useful commands
 
 ```bash
