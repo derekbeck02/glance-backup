@@ -6,6 +6,12 @@ It can show backup status, start/stop backups, create local `.tar.gz` archives, 
 
 > The API has no built-in login. Keep it on a trusted LAN or Tailscale. Do not expose it directly to the public internet.
 
+## Screenshots
+
+<img width="829" height="346" alt="glance-backup-status-dark-theme-screenshot" src="https://github.com/user-attachments/assets/c9b1d284-cd3c-4a59-8d11-c3d2eccf2083" />
+<img width="1195" height="497" alt="glance-backup-status-light-theme-screenshot" src="https://github.com/user-attachments/assets/ecc9a2e2-91b0-4e97-952d-e5eeaecedd09" />
+<img width="1196" height="501" alt="glance-backup-status-custom-theme-screenshot" src="https://github.com/user-attachments/assets/91f626bb-2c0f-4215-995c-41b6ebd299c8" />
+
 ## Requirements
 
 Linux server with Docker + Docker Compose, OpenSSH Server, Python 3, and `sudo`. `rclone` and Glance are optional.
